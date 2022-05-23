@@ -1,0 +1,24 @@
+.playing-song {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playing-song img {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    padding: 10px;
+    border: solid 3px white;
+    border-radius: 50%;
+}
+
+@keyframes cover_rotation {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.playing-song .rotate-cover {
+    animation: cover_rotation 30s linear infinite;
+}

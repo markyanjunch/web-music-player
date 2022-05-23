@@ -1,0 +1,30 @@
+.playlist-song {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    grid-column-gap: 10px;
+    max-width: 400px;
+    margin: 10px 5px;
+    background-color: #2c2c2c;
+}
+
+.playlist-song:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.playlist-song img {
+    width: 100%;
+}
+
+.playlist-title {
+    font-weight: bold;
+}
+
+.playlist-artist {
+    font-size: smaller;
+}
+
+.current-song {
+    border: solid 3px #e84749;
+}
