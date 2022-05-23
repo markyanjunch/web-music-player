@@ -2,7 +2,7 @@
 *Final Project for SI579 Building Interactive Applications @ Umich*
 
 ## Online Deployment
-[https://markyanjunch.github.io/si579-project/](https://markyanjunch.github.io/si579-project/)
+[https://markyanjunch.github.io/web-music-player/](https://markyanjunch.github.io/web-music-player/)
 
 ## Run Locally
 Clone this repo to your local development environment.
